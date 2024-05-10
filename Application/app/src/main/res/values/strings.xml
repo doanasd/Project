@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GameLord</string>
+    <string name="playButton">PlayButton</string>
+    <string name="home">Home</string>
+    <string name="info">thông tin cá nhân</string>
+    <string name="showRecord">xem kỷ lục</string>
+    <string name="changePass">đổi mật khẩu</string>
+    <string name="Exit">Lưu game và Đăng xuất</string>
+    <string name="navi_open">open</string>
+    <string name="navi_close">close</string>
+    <string name="vku">Trang chủ VKU</string>
+    <string name="elearning2">Trang chủ ELEARNIGN2</string>
+    <string name="addPic">Thêm đừờng link ảnh...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="dokho">
+        <item>easy</item>
+        <item>normal</item>
+        <item>hard</item>
+    </array>
+</resources>

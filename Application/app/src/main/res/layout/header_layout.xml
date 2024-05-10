@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FD0F77CA"
+    android:padding="20dp"
+    tools:context=".ManHinhGame"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/avt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:padding="10dp"
+        android:background="@drawable/null_avt_foreground">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="doanasd"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+
+    </TextView>
+    <TextView
+        android:id="@+id/gmail"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#95FFFFFF"
+        android:text="123@gmail.com">
+
+    </TextView>
+</LinearLayout>

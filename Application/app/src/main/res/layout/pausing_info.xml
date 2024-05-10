@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chế độ :"
+            android:textSize="16sp"
+            android:textColor="#6D3C3939"
+            android:textStyle="bold|italic">
+
+        </TextView>
+        <TextView
+            android:id="@+id/chedo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text=""
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:textColor="#15E41D"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/manLinearLayout"
+        android:layout_width="match_parent"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Màn :"
+            android:textSize="18sp"
+            android:textColor="#653C3939"
+            android:textStyle="bold|italic">
+
+        </TextView>
+        <TextView
+            android:id="@+id/currentRound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:text="1"
+            android:layout_weight="1"
+            android:textColor="#C4FA0101"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tg"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Thời gian :"
+            android:textSize="18sp"
+            android:textColor="#6D3C3939"
+            android:textStyle="bold|italic">
+        </TextView>
+        <TextView
+            android:id="@+id/currentTime"
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:textColor="#C4FA0101"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Điểm :"
+            android:textSize="18sp"
+            android:textColor="#6D3C3939"
+            android:textStyle="bold|italic">
+        </TextView>
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="2dp"
+            android:textColor="#C4FA0101"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8474545"
+    tools:context=".pausing_form">
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="40dp"
+        android:scaleType="center"
+        android:background="@drawable/paus"/>
+
+    <ListView
+        android:id="@+id/pausing_info"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="210dp"
+        android:padding="2dp"
+        android:rotation="-6"
+        android:layout_height="158dp">
+
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="160dp"
+        android:padding="8dp"
+        android:rotationX="-20"
+        android:rotationY="16"
+        android:text="Pausing..."
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/resume"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:rotationY="-20"
+        android:rotationX="-5"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/exit">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="150dp"
+        android:background="@drawable/home3"></ImageButton>
+</FrameLayout>
